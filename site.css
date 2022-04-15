@@ -1,0 +1,349 @@
+Hoà Nguyễn
+*  {
+    box-sizing: border-box;
+}
+/*div {
+    border: 1px solid #000;
+}*/
+body {
+    min-height: 1700px;
+    background-size: 100%;
+    background-image: url(/images/bg-top.jpg), url(/images/bg-bottom.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom left;
+    background-color: #f2f2f2f2;
+}
+:root {
+    --full-width:100%;
+    --normal-width:990px;
+}
+.container-top {
+    display: flex;
+    width: var(--full-width);
+    height: 40px;
+}
+.container-top-left {
+    width: 650px;
+    height: 40px;
+}
+.container-top-middle {
+    width: 170px;
+    height: 40px;
+}
+.container-top-right {
+    width: 700px;
+    height: 40px;
+}
+.container-top-left>ul>li {
+    list-style: none;
+    display: inline-table;
+}
+.container-top-left ul li a {
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+    border-right:1px solid #f2f2f2f2 ;
+    color: white;
+    font-size: 0.7em;
+}
+.container-top-left-menu {
+    margin: 10px 0px 0px 320px;
+}
+.container-top-right ul li {
+    list-style: none;
+    display: inline-table;
+}
+.container-top-right ul li a {
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+    border-left:1px solid #f2f2f2f2 ;
+    color: white;
+    font-size: 0.7em;
+}
+.container-top-right-menu {
+    margin-top: 10px;
+    margin-left: -20px;
+}
+a:hover {
+    opacity: 0.6;
+}
+.menu {
+    width: 990px;
+    height: 1040px;
+    margin:345px 0px 0px 260px;
+}
+.thanh-top {
+    height: 260px;
+    width: var(--normal-width);
+    background-color: #112141;
+    display: flex;
+    justify-content: space-between;
+}
+.thanh-top-left {
+    height: 260px;
+    width: 245px;
+}
+.thanh-top-middle {
+    height: 260px;
+    width: 490px;
+}
+.thanh-top-right {
+    height: 260px;
+    width: 245px;
+}
+.thanh-top-left-items-1 {
+    height: 127px;
+    width: 240px;
+    background-image: url(/images/btn_taigame.jpg);
+}   
+.thanh-top-left-items-2 {
+    height: 66px;
+    width: 240px;
+    background-image: url(/images/buttons-left.png);
+}
+.thanh-top-left-items-2:hover {
+    background-position: -248px 0px;
+}
+.thanh-top-left-items-3 {
+    height: 66px;
+    width: 240px;
+    background-image: url(/images/buttons-left.png);
+    background-position: 0px -66px;
+}
+.thanh-top-left-items-3:hover {
+    background-position: -248px -66px;
+}
+.thanh-top-middle {
+    background-image: url(/images/slider-01.gif);
+}
+.thanh-top-right-top {
+    height: 220px;
+    width: 235px;
+    background-image: url(/images/buttons-right.png);
+}
+.thanh-top-right-bot {
+    height: 30px;
+    width: 235px;
+    background-image: url(/images/hotline.png);
+    margin-top: 5px;
+}
+.thanh-middle {
+    display: flex;
+    margin-top: 6px;
+    justify-content: space-between;
+}
+.thanh-middle-left {
+    height: 80px;
+    width: 740px;
+    background-image: url(/images/cuuamlenh-vip-giftcode.png);
+}
+.thanh-middle-right {
+    background-color: #112141;
+    height: 310px;
+    width: 240px;
+    display: grid;
+    gap: 6px;
+    padding: 6px;
+}
+.thanh-middle-right-1 {
+    height: 53px;
+    width: 227px;
+    background-image: url(/images/links-right.png);
+}
+.thanh-middle-right-2 {
+    height: 53px;
+    width: 227px;
+    background-image: url(/images/links-right.png);
+    background-position: 0 -60px;
+}
+.thanh-middle-right-3 {
+    height: 53px;
+    width: 227px;
+    background-image: url(/images/links-right.png);
+    background-position: 0 -120px;
+}
+.thanh-middle-right-4 {
+    height: 53px;
+    width: 227px;
+    background-image: url(/images/links-right.png);
+    background-position: 0 -170px;
+}
+.thanh-middle-right-5 {
+    height: 53px;
+    width: 227px;
+    background-image: url(/images/links-right.png);
+    background-position: 0 -230px;
+}
+.thanh-middle-bot {
+    height: 685px;
+    width: 740px;
+    background-color: #112141;
+    margin-top: 85px;
+}
+.thanh-middle-bot {
+    background-image: url(/images/news-header-bg.png);
+    background-repeat: no-repeat;
+}
+.thanh-middle-bot ul li {
+    list-style: none;
+    display: inline-table;
+    margin-top: 10px;
+}
+.thanh-middle-bot ul li a {
+    text-decoration: none;
+    padding: 0px 20px 0px 20px;
+    color: #ADA87A;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.middle-menus-bot {
+    height: 620px;
+    width: 730px;
+    background-color: #ffff;
+    margin: auto;
+}
+.middle-menus-bot-top {
+    width: 695px;
+    height: 500px;
+    background-color: #ffff;
+    margin-top: 10px;
+    margin-left: 17px;
+    display: grid;
+    gap: 9px;
+}
+.middle-menus-bot-top-items-1 {
+    height: 160px;
+   display: flex;
+   justify-content: space-between;
+}
+.middle-menus-bot-top-items-2{
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+.middle-menus-bot-top-items-3 {
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+.pic-1 {
+    height: 150px;
+    width: 155px;
+    background-color: #B69B74;
+    padding: 5px;
+    margin-top: 5px;
+}
+.thong-tin-1 {
+    width: 530px;
+    height: 160px;
+}
+.thong-tin-1 p {
+    line-height: 0.1;
+}
+#top {
+    font-weight: bold;
+    color: red;
+}
+#middle {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 0.7em;
+    color: #8C8C9C;
+}
+#bot {
+    line-height: 1.0;
+    color: #696969;
+}
+.pic-2 {
+    height: 150px;
+    width: 155px;
+    background-color: #B69B74;
+    padding: 5px;
+    margin-top: 5px;
+}
+.thong-tin-2 {
+    width: 530px;
+    height: 160px;
+}
+.thong-tin-2 p {
+    line-height: 0.1;
+}
+.pic-3 {
+    height: 150px;
+    width: 155px;
+    background-color: #B69B74;
+    padding: 5px;
+    margin-top: 5px;
+}
+.thong-tin-3 {
+    width: 530px;
+    height: 160px;
+}
+.thong-tin-3 p {
+    line-height: 0.1;
+}
+.middle-menus-bot-bot {
+    width: 175px;
+    height: 45px;
+    margin-left: 500px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #B69B74;
+}
+.len-tren {
+    height: 40px;
+    width: 75px;
+    margin: auto;
+    background-color: #112141;
+    font-weight: bold;
+}
+.xem-them {
+    height: 40px;
+    width: 80px;
+    margin: auto;
+    background-color: #112141;
+    font-weight: bold;
+}
+.len-tren a {
+    text-decoration: none;
+    color: #47556A;
+}
+.xem-them a {
+    text-decoration: none;
+    color: #47556A;
+}
+.bottom {
+    width: 790px;
+    height: 120px;
+    margin:200px 0px 0px 260px;
+    display: flex;
+}
+.logo {
+    width: 137px;
+    height: 39px;
+    background-image: url(/images/gosu-logo.png);
+}
+.ho-tro {
+    width: 653px;
+    height: 120px;
+    text-align: center;
+    line-height: 0.5;
+}
+.ho-tro-1 {
+    height: 38px;
+    width: 600px;
+}
+.ho-tro-1 ul li {
+    list-style: none;
+    display: inline-table;
+}
+.ho-tro-1 ul li a {
+    text-decoration: none;
+    padding: 0 5px 0 5px;
+    border-right:2px solid #47556A ;
+    font-size: 0.7em;
+    color: #000;
+}
+.ho-tro-2 {
+    font-size: 0.7em;
+}
